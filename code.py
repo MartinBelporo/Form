@@ -1,8 +1,7 @@
-# This program prints Hello, world!
+# This program FOR TAXES CALCULATION!
 
-from traceback import print_last
-
-
-print('Hello, world!')
-print('Hello bro, world')
-print('thank you for this opportunity')
+print("Welcome to the tax form")
+name = input("Enter your name: ")
+position = input("Enter your position: HR OR ENG. ")
+salary = input("Enter your annual salary: ")
+country = input("Enter your country (CAN, US): ")
