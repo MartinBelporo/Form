@@ -3,5 +3,12 @@
 print("Welcome to the tax form")
 name = input("Enter your name: ")
 position = input("Enter your position: HR OR ENG. ")
-salary = input("Enter your annual salary: ")
+salary = int(input("Enter your annual salary: "))
 country = input("Enter your country (CAN, US): ")
+if position == "HR":
+    if country == "CAN":
+        taxes=(salary+8000)*0.2
+        print("The amount of taxes you pay is " + str(taxes)+ ' $') 
+    elif country == "US":
+        taxes=(salary+8000)*0.15
+        print("The amount of taxes you pay is " + str(taxes)+' $') 
