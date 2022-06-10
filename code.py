@@ -20,6 +20,6 @@ if position == "ENG":
     elif country == "CAN":
        Tax =(salary+8000)*0.15
        print("The amount of taxes you pay is " + str(Tax)+ ' $')
-       print("Thank you for choosing us")
+       print("Thank you for choosing today")
 
 
