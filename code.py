@@ -12,3 +12,14 @@ if position == "HR":
     elif country == "US":
         taxes=(salary+8000)*0.15
         print("The amount of taxes you pay is " + str(taxes)+' $') 
+if position == "ENG":
+    if country =="US":
+      Tax =(salary+20000)*0.15
+      print("The amount of taxes you pay is " + str(Tax)+ ' $')
+      print("Thank you for choosing us")
+    elif country == "CAN":
+       Tax =(salary+8000)*0.15
+       print("The amount of taxes you pay is " + str(Tax)+ ' $')
+       print("Thank you for choosing us")
+
+
